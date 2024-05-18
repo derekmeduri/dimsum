@@ -21,11 +21,12 @@ html {
     font-family: var(--ff-sans);
     background-color: var(--clr-primary);
     color: var(--clr-text);
-    font-size: 1.125rem;
+    font-size: 1.25rem;
 }
 
 body {
     margin: 0;
+    text-align: center;
 }
 
 img {
@@ -58,6 +59,7 @@ p {
 
 .section-title-small {
     font-size: 3rem;
+    display: block;
 }
 
 .text-accent {
@@ -112,18 +114,30 @@ nav a:focus {
 .hero {
 text-align: center;
 padding: 1em;
+
 }
 
 .intro {
    text-align: center;
+   
 }
 
 .about-us {
     background-color: var(--clr-accent);
     display: flex;
     flex-direction: column;
+    color: white;
+    padding: 0;
 }
 
 .about-us-intro {
+    background-image: url(../img/dumplings2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 3em 1em 1.5em;
+    background-attachment: fixed;
+}
 
+.about-us-body {
+    padding: 1.5em 1em 3em;
 }
